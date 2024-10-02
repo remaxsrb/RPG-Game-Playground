@@ -29,9 +29,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Default")
 	TObjectPtr<UCameraComponent> Camera;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character|Stats")
-	float Health = 1000.0f;
 	
 	UFUNCTION(BlueprintCallable, Category = "Character|TraceLocations")
     void VaultObstacleDetection(const int32 index, FVector& Start, FVector& End);

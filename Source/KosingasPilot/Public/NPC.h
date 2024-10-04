@@ -28,7 +28,7 @@ public:
 
 	//Kill NPC
 
-	UFUNCTION(BlueprintCallable, Category = "Character|Stats")
+	UFUNCTION(BlueprintCallable, Category = "Character|Combat")
 	void Kill();
 	
 };
